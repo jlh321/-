@@ -1,0 +1,3 @@
+今天工作大佬说了一个名词，Tree-shaking,起源是angular导入第三方库的Service时，如果没有注入某一个Service，那么这个Service就会被Tree-shaking掉。
+Tree-shaking,可以理解为通过某些工具"shaking"我们的JS文件，然后把用不到的Js代码摇下来，属于性能优化的一个范畴。
+在Webpack项目中，会有一个入口文件，相当于一课树的主干，而入口文件有很多的依赖模块相当于树枝。应用中我们只使用了模块内一部分的组件或Service,那么其他的没有用到的Js文件就会被Shaking掉，
